@@ -1,9 +1,3 @@
-# Conclusion
-The results reveal the performance of three models—Logistic Regression, Random Forest, and XGBoost—on a binary classification task, evaluated before and after hyperparameter tuning. The key metrics are precision, recall, F1-score, and macro average, focusing on the model's ability to balance performance across both classes (majority and minority).
-
-- Before tuning, Logistic Regression achieved reasonable performance but struggled with recall for the minority class. Random Forest showed slightly better balance, but XGBoost demonstrated superior precision for the minority class at the cost of recall.
-- After tuning, all models improved in terms of macro average metrics, with Logistic Regression and Random Forest achieving better recall for the minority class. XGBoost, while maintaining high precision, showed the highest macro average precision but faced challenges in recall for the minority class.
-
 # Key Findings
 
 1. ## **Pre-Tuning Observations**
@@ -45,3 +39,9 @@ The results reveal the performance of three models—Logistic Regression, Random
     - Logistic Regression achieved the best balance between precision and recall after tuning, reflected in its macro average F1-score.
     - Random Forest performed comparably to Logistic Regression but with slightly lower F1-scores for the minority class.
     - XGBoost demonstrated strong precision, making it ideal for cases where minimizing false positives is critical. However, it struggled to improve recall even after tuning.
+
+# Conclusion
+The results reveal the performance of three models—Logistic Regression, Random Forest, and XGBoost—on a binary classification task, evaluated before and after hyperparameter tuning. The key metrics are precision, recall, F1-score, and macro average, focusing on the model's ability to balance performance across both classes (majority and minority).
+
+- Before tuning, Logistic Regression achieved reasonable performance but struggled with recall for the minority class. Random Forest showed slightly better balance, but XGBoost demonstrated superior precision for the minority class at the cost of recall.
+- After tuning, all models improved in terms of macro average metrics, with Logistic Regression and Random Forest achieving better recall for the minority class. XGBoost, while maintaining high precision, showed the highest macro average precision but faced challenges in recall for the minority class.
